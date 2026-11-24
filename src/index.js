@@ -1,4 +1,4 @@
-const healthQuery = 'SELECT COUNT(*) AS service_count FROM services_missing';
+const healthQuery = 'SELECT COUNT(*) AS service_count FROM services';
 const servicesQuery = `
   SELECT id, name, status, updated_at
   FROM services
