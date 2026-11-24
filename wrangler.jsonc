@@ -1,0 +1,14 @@
+{
+  "name": "serverless-status-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-04-01",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "portfolio-status-db",
+      "database_id": "9649178e-a90e-4f75-bcca-7e754b33d13a",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
